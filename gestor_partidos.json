@@ -1,0 +1,23 @@
+{
+    "partidos":
+        {
+            "id_partido":0,
+            "fecha":0,
+            "id_arbitro":0,
+            "equipo_local":0,
+            "equipo_visitante":0,
+            "goles_local":0,
+            "goles_visitante":0,
+            "alineacion_local":[],
+            "alineacion_visitante":[],
+            "eventos":[
+                    {
+                        "minuto":30,
+                        "tipo":"gol",
+                        "jugador":0,
+                        "equipo":0
+                    }
+                      ]
+                                
+        }
+}

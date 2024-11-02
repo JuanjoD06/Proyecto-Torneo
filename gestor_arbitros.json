@@ -1,0 +1,9 @@
+{
+    "arbitro":{
+        "id":0,
+        "nombre":"",
+        "experiencia":0,
+        "categoria":"",
+        "partidos_dirigidos":0
+    }
+}

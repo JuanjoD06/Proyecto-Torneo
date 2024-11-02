@@ -1,0 +1,20 @@
+{
+    "jugador":
+        {
+            "id_jugador":0,
+            "nombre":"",
+            "numero":0,
+            "posicion":0,
+            "equipo_id":"id_equipo",
+            "estadisticas_jugador":
+            {
+                "partidos":0,
+                "goles":0,
+                "asistencias":0,
+                "tarjetas_amarillas":0,
+                "tarjetas_rojas":0,
+                "minutos_jugados":0
+            }
+
+        }
+}

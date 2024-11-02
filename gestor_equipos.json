@@ -1,0 +1,22 @@
+{
+    "equipo":[
+        {
+            "id_equipo":0,
+            "nombre":"",
+            "ciudad":"",
+            "dt":"",
+            "jugadores":[],
+            "estadisticas_equipo":
+                {
+                    "puntos":0,
+                    "partidos_jugados":0,
+                    "ganados":0,
+                    "emapatados":0,
+                    "perdidos":0,
+                    "goles_favor":0,
+                    "goles_contra":0
+            
+                }
+            }
+        ]
+}
