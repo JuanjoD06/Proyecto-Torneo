@@ -1,9 +1,25 @@
 {
-    "arbitro":{
-        "id":0,
-        "nombre":"",
-        "experiencia":0,
-        "categoria":"",
-        "partidos_dirigidos":0
-    }
+    "arbitro": [
+        {
+            "id_arbitro": 0,
+            "nombre": "",
+            "experiencia": 0,
+            "categoria": "",
+            "partidos_dirigidos": 0
+        },
+        {
+            "id_arbitro": 1,
+            "nombre": "juan jose",
+            "experiencia": 2,
+            "categoria": "nacional",
+            "partidos_dirigidos": 3
+        },
+        {
+            "id_arbitro": 2,
+            "nombre": "rodrigo",
+            "experiencia": 5,
+            "categoria": "fifa",
+            "partidos_dirigidos": 0
+        }
+    ]
 }

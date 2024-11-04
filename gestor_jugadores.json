@@ -1,20 +1,79 @@
 {
-    "jugador":
+    "jugador": [
         {
-            "id_jugador":0,
-            "nombre":"",
-            "numero":0,
-            "posicion":0,
-            "equipo_id":"id_equipo",
-            "estadisticas_jugador":
-            {
-                "partidos":0,
-                "goles":0,
-                "asistencias":0,
-                "tarjetas_amarillas":0,
-                "tarjetas_rojas":0,
-                "minutos_jugados":0
+            "id_jugador": 0,
+            "nombre": "",
+            "numero": 0,
+            "posicion": 0,
+            "equipo_id": "",
+            "estadisticas_jugador": {
+                "partidos": 0,
+                "goles": 0,
+                "asistencias": 0,
+                "tarjetas_amarillas": 0,
+                "tarjetas_rojas": 0,
+                "minutos_jugados": 0
             }
-
+        },
+        {
+            "id_jugador": 1,
+            "nombre": "rodrigo lara",
+            "numero": "12",
+            "posicion": "delantero",
+            "equipo_id": "1",
+            "estadisticas_jugador": {
+                "partidos": 10,
+                "goles": 3,
+                "asistencias": 4,
+                "tarjetas_amarillas": 0,
+                "tarjetas_rojas": 0,
+                "minutos_jugados": 90
+            }
+        },
+        {
+            "id_jugador": 2,
+            "nombre": "juan bonilla",
+            "numero": "2",
+            "posicion": "delantero",
+            "equipo_id": "1",
+            "estadisticas_jugador": {
+                "partidos": 15,
+                "goles": 10,
+                "asistencias": 3,
+                "tarjetas_amarillas": 1,
+                "tarjetas_rojas": 0,
+                "minutos_jugados": 130
+            }
+        },
+        {
+            "id_jugador": 3,
+            "nombre": "carlos rodriguez",
+            "numero": "4",
+            "posicion": "delantero",
+            "equipo_id": "1",
+            "estadisticas_jugador": {
+                "partidos": 0,
+                "goles": 0,
+                "asistencias": 0,
+                "tarjetas_amarillas": 0,
+                "tarjetas_rojas": 0,
+                "minutos_jugados": 0
+            }
+        },
+        {
+            "id_jugador": 4,
+            "nombre": "juan",
+            "numero": "",
+            "posicion": "delantero",
+            "equipo_id": "2",
+            "estadisticas_jugador": {
+                "partidos": 0,
+                "goles": 0,
+                "asistencias": 0,
+                "tarjetas_amarillas": 0,
+                "tarjetas_rojas": 0,
+                "minutos_jugados": 0
+            }
         }
+    ]
 }
