@@ -61,6 +61,7 @@ def buscar_equipo(key,value):
         if equipo.get(key,"").lower() == value.lower():
             print(equipo)
             return True
+    print("Ese valor no existe")
     return False
 
 def actualizar_estadisticas_equipo(id_equipo,puntos,jugados,ganados,empatados,perdidos,goles_favor,goles_contra):
