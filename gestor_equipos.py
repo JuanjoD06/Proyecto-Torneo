@@ -57,13 +57,11 @@ def registrar_equipo(nombre,ciudad,dt):
 
 def buscar_equipo(key,value):
     archivo=cargar_json()
-    encontrado = False
     for equipo in archivo.get("equipo",[]):
         if equipo.get(key,"").lower() == value.lower():
             print(equipo)
-            encontrado = True
-    if not encontrado:
-        print("Equipo no encontrado")
+            return True
+    return False
 
 def actualizar_estadisticas_equipo(id_equipo,puntos,jugados,ganados,empatados,perdidos,goles_favor,goles_contra):
     archivo = cargar_json()
