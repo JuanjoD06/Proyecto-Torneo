@@ -104,7 +104,7 @@ if __name__ == "__main__":
                 buscar_equipo(key,value) 
 
             elif opcion == "3":
-                id_equipo = input("Ingresar el id del equipo para actualizar sus estadisticas")
+                id_equipo = int(input("Ingresar el id del equipo para actualizar sus estadisticas"))
                 puntos=int(input("Ingresar numero de puntos:"))
                 jugados=int(input("Ingresar numero de partidos jugados:"))
                 ganados=int(input("Ingresar numero de partidos ganados:"))
